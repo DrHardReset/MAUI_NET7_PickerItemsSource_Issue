@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            VerticalOptions="Center">
+
+            <Picker
+                x:Name="Picker1"
+                WidthRequest="200"/>
+
+            <Button
+                x:Name="Button1"
+                Text="Change Picker's ItemsSource to List2"
+                WidthRequest="300"
+                Clicked="OnButtonClicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
